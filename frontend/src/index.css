@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dashboard-bg: #0f172a;
+  --color-card-bg: #1e293b;
+  --color-sidebar-bg: #0f172a;
+  --color-accent-cyan: #22d3ee;
+  --shadow-glow: 0 0 15px rgba(34, 211, 238, 0.5);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dashboard-bg);
+    color: #f3f4f6;
+  }
+}
